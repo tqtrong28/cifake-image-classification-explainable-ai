@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.vscode/
+
+dataset/
+outputs/
+docs/superpowers/
+
+*.pt
+*.pth
+*.npy
