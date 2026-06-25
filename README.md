@@ -148,6 +148,12 @@ Train DenseNet121:
 python scripts/train_densenet121.py
 ```
 
+Train DeiT-Tiny:
+
+```bash
+python scripts/train_deit_tiny.py
+```
+
 Các script train đều dùng:
 
 ```text
@@ -205,10 +211,22 @@ Evaluate EfficientNet-B0:
 python scripts/evaluate_efficientnet_b0.py
 ```
 
+Evaluate DeiT-Tiny:
+
+```bash
+python scripts/evaluate_deit_tiny.py
+```
+
 DenseNet121 final test metrics được lưu khi chạy:
 
 ```bash
 python scripts/train_densenet121.py
+```
+
+DeiT-Tiny final test metrics được lưu khi chạy:
+
+```bash
+python scripts/train_deit_tiny.py
 ```
 
 ## Grad-CAM Explainability
